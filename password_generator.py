@@ -28,4 +28,4 @@ password = list(password)  # converts the password variable into a list
 random.shuffle(password)  # random.shuffle() shuffles the password list
 password = ''.join(password)  # ''.join() joins the password list into a string
 
-print(password)  # prints the password variable
+print(f"Password: {password}")  # prints the password variable
